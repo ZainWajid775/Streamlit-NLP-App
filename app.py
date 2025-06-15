@@ -5,9 +5,9 @@ import pandas as pd
 import os
 
 # Load model and vectorizer
-MODEL_PATH = "D:/Codes/NLP Incremental/sentiment_model.pkl"
-VECTORIZER_PATH = "D:/Codes/NLP Incremental/vectorizer.pkl"
-CORRECTIONS_PATH = "D:/Codes/NLP Incremental/corrections.csv"
+MODEL_PATH = "sentiment_model.pkl"
+VECTORIZER_PATH = "vectorizer.pkl"
+CORRECTIONS_PATH = "corrections.csv"
 
 model = joblib.load(MODEL_PATH)
 vectorizer = joblib.load(VECTORIZER_PATH)
